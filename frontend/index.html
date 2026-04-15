@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>AI vs Human Voice Detection</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1 class="title">
+     AI vs Human Voice Detection
+</h1>
+
+<p class="description">
+    Upload an audio file to check whether the voice is Human or AI generated.
+</p>
+
+<div class="upload-section">
+
+    <div class="file-box">
+
+        <input
+            type="file"
+            id="audioFile"
+            accept=".wav">
+
+    </div>
+
+    <button onclick="uploadAudio()">
+        Detect Voice
+    </button>
+
+</div>
+
+<div class="audio-preview">
+</div>
+
+<div id="resultBox"
+     class="result">
+
+    Result will appear here
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
